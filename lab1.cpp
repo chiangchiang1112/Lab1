@@ -1,7 +1,8 @@
 #include<iostream>
 using namespace std;
 int main(){
-	int i=22;
+	int i;
+	cin>>i; 
 	cout<<i<<" ";
 	while(i!=1){
 		if(i%2==1){
